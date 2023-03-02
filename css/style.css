@@ -1,0 +1,23 @@
+  a[target] {
+  background-color: red;
+  }
+  a[target=_top] {
+  background-color: pink;
+}
+[title~=plant] {
+  border: 5px solid yellow;
+}
+[class|=top] {
+  background: pink;
+}
+[class^="v"] {
+  background: orange;
+}
+[class$="mp"] {
+  background: yellow;
+}
+[class*="2"] {
+  background: yellow;
+  font-size:150%;
+  color:green;
+}
